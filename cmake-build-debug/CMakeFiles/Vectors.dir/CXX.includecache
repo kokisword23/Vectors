@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/NBU/Vectors/entities/Element.cpp
+Element.h
+/cygdrive/c/NBU/Vectors/entities/Element.h
+
+/cygdrive/c/NBU/Vectors/entities/Element.h
+
+/cygdrive/c/NBU/Vectors/main.cpp
+iostream
+-
+
