@@ -1,3 +1,5 @@
+#pragma once
+
 class Element {
 private:
     double x;
@@ -5,7 +7,7 @@ private:
     double z;
 
 protected:
-    Element(double x, double y, double z);
+    Element(double , double , double );
     Element();
 public:
     double getX() const;
