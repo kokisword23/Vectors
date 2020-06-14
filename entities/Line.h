@@ -14,13 +14,13 @@ public:
 
 	//Toni
 	//function finding the direction of a line - returns a vector parallel to the line;
-	Vector lineDirection(const Line&);
-	Vector normalVector(const Line&);
-	double angle(const Line&);
+	Vector lineDirection();
+	Vector normalVector();
+	double angle(Line);
 
 	bool operator+(const Point&) const;
-	bool operator||(const Line&);
-	bool operator==(const Line&);
+	bool operator||(Line);
+	bool operator==(Line);
 	bool operator&&(const Line&);
 	bool operator!=(const Line&);
 	bool operator|(const Line&);

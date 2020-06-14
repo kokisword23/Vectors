@@ -1,5 +1,5 @@
 #include "Triangle.h"
-#include "equalpointexception.h"
+#include "TriangleEqualPointsException.h"
 
 Triangle::Triangle(Point p1, Point p2, Point p3)
 {

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/NBU/Vectors/entities/Element.cpp" "/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Element.cpp.o"
-  "/cygdrive/c/NBU/Vectors/entities/Line.cpp" "/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Line.cpp.o"
-  "/cygdrive/c/NBU/Vectors/entities/Point.cpp" "/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Point.cpp.o"
-  "/cygdrive/c/NBU/Vectors/entities/Segment.cpp" "/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Segment.cpp.o"
-  "/cygdrive/c/NBU/Vectors/entities/Triangle.cpp" "/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Triangle.cpp.o"
-  "/cygdrive/c/NBU/Vectors/entities/Vector.cpp" "/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Vector.cpp.o"
-  "/cygdrive/c/NBU/Vectors/main.cpp" "/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/main.cpp.o"
+  "/cygdrive/c/NBU/Vectors/Vectors/entities/Element.cpp" "/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Element.cpp.o"
+  "/cygdrive/c/NBU/Vectors/Vectors/entities/Line.cpp" "/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Line.cpp.o"
+  "/cygdrive/c/NBU/Vectors/Vectors/entities/Point.cpp" "/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Point.cpp.o"
+  "/cygdrive/c/NBU/Vectors/Vectors/entities/Segment.cpp" "/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Segment.cpp.o"
+  "/cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.cpp" "/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Triangle.cpp.o"
+  "/cygdrive/c/NBU/Vectors/Vectors/entities/Vector.cpp" "/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Vector.cpp.o"
+  "/cygdrive/c/NBU/Vectors/Vectors/main.cpp" "/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

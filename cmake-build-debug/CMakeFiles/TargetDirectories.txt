@@ -1,3 +1,4 @@
-/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir
-/cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir
+/cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/TriangleEqualPointsException.dir

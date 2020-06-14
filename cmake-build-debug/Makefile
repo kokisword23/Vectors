@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/User/.CLion2019.3/system/cygwin_cmake/bin/cmake.exe -E re
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/NBU/Vectors
+CMAKE_SOURCE_DIR = /cygdrive/c/NBU/Vectors/Vectors
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/NBU/Vectors/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles /cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles /cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/NBU/Vectors/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/NBU/Vectors/Vectors/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,19 @@ Vectors: cmake_check_build_system
 Vectors/fast:
 	$(MAKE) -f CMakeFiles/Vectors.dir/build.make CMakeFiles/Vectors.dir/build
 .PHONY : Vectors/fast
+
+#=============================================================================
+# Target rules for targets named TriangleEqualPointsException
+
+# Build rule for target.
+TriangleEqualPointsException: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TriangleEqualPointsException
+.PHONY : TriangleEqualPointsException
+
+# fast build rule for target.
+TriangleEqualPointsException/fast:
+	$(MAKE) -f CMakeFiles/TriangleEqualPointsException.dir/build.make CMakeFiles/TriangleEqualPointsException.dir/build
+.PHONY : TriangleEqualPointsException/fast
 
 entities/Element.o: entities/Element.cpp.o
 
@@ -319,8 +332,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Vectors"
 	@echo "... edit_cache"
+	@echo "... Vectors"
+	@echo "... TriangleEqualPointsException"
 	@echo "... entities/Element.o"
 	@echo "... entities/Element.i"
 	@echo "... entities/Element.s"

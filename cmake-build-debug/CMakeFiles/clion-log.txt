@@ -1,4 +1,6 @@
-C:\Users\User\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/NBU/Vectors
+C:\Users\User\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/NBU/Vectors/Vectors
 -- Configuring done
+CMake Error: Cannot determine link language for target "TriangleEqualPointsException".
+CMake Error: CMake can not determine linker language for target: TriangleEqualPointsException
 -- Generating done
--- Build files have been written to: /cygdrive/c/NBU/Vectors/cmake-build-debug
+CMake Generate step failed.  Build files cannot be regenerated correctly.
