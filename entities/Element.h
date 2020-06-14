@@ -1,5 +1,5 @@
 #pragma once
-
+#include <iostream>
 class Element {
 private:
     double x;
@@ -7,7 +7,7 @@ private:
     double z;
 
 protected:
-    Element(double , double , double );
+    Element(double , double , double);
     Element();
 public:
     double getX() const;
@@ -21,4 +21,8 @@ public:
     double getZ() const;
 
     void setZ(double z);
+
+	virtual std::ostream& ins(std::ostream&) const = 0;
+	virtual std::istream& ext(std::istream&) = 0
 };
+

@@ -13,8 +13,8 @@ public:
 
 	Vector(const Vector&);
 	Vector& operator=(const Vector&);
-	std::ostream& out(std::ostream&) const;
-	std::istream& in(std::istream&);
+	virtual std::ostream& ins(std::ostream&) const;
+	virtual std::istream& ext(std::istream&);
 	//Toni
 	//vector length function that returns real number sqrt(x^2 + y^2 + z^2)
 	double vectorLength();
@@ -35,5 +35,5 @@ public:
 };
 
 std::ostream& operator<<(std::ostream&, const Vector&);
-std::istream& operator>> (std::istream&, Vector&);
+std::istream& operator>>(std::istream&, Vector&);
 Vector operator*(double, const Vector&);

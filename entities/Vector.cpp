@@ -21,12 +21,12 @@ Vector& Vector::operator=(const Vector& rhs) {
 	return *this;
 }
 
-std::ostream& Vector::out(std::ostream& output) const {
+std::ostream& Vector::ins(std::ostream& output) const {
 	return output << "X: " << getX() << std::endl
 		<< "Y: " << getY() << std::endl
 		<< "Z: " << getZ() << std::endl;
 }
-std::istream& Vector::in(std::istream& input) {
+std::istream& Vector::ext(std::istream& input) {
 	double x, y, z;
 	input >> x >> y >> z;
 	setX(x);
@@ -36,10 +36,10 @@ std::istream& Vector::in(std::istream& input) {
 }
 
 std::ostream& operator<<(std::ostream& out, const Vector& rhs) {
-	return rhs.out(out);
+	return rhs.ins(out);
 }
 std::istream& operator>> (std::istream& in, Vector& rhs) {
-	return rhs.in(in);
+	return rhs.ext(in);
 }
 
 double Vector::vectorLength() {
@@ -158,6 +158,7 @@ bool Vector::vectParallelism() {
 	return false;
 }
 
+//try catch in the menu
 bool Vector::vectPerpendicularity() {
 	double v1, v2, v3;
 	try
