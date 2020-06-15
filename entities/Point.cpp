@@ -2,19 +2,22 @@
 
 Point::Point(double x, double y, double z) : Element(x, y, z) {}
 
-bool Point::operator==(Point point) {
-    bool statement = this->getX() == point.getX() && this->getY() == point.getY() && this->getZ() == point.getZ();
-    return statement;
+bool Point::operator==(Point point)
+{
+	bool statement = this->getX() == point.getX() && this->getY() == point.getY() && this->getZ() == point.getZ();
+	return statement;
 }
 
 Point::Point() {}
 
-std::ostream& Point::ins(std::ostream& out) const {
+std::ostream &Point::ins(std::ostream &out) const
+{
 	return out << "X: " << getX() << std::endl
-		<< "Y: " << getY() << std::endl
-		<< "Z: " << getZ() << std::endl;
+			   << "Y: " << getY() << std::endl
+			   << "Z: " << getZ() << std::endl;
 }
-std::istream& Point::ext(std::istream& in) {
+std::istream &Point::ext(std::istream &in)
+{
 	double x, y, z;
 	in >> x;
 	this->setX(x);
@@ -26,9 +29,22 @@ std::istream& Point::ext(std::istream& in) {
 	return in;
 }
 
-std::ostream& operator<<(std::ostream& lhs, const Point& rhs) {
+Point &Point::operator=(const Point &other)
+{
+	if (this != &other)
+	{
+		this->setX(other.getX());
+		this->setY(other.getY());
+		this->setZ(other.getZ());
+	}
+	return *this;
+}
+
+std::ostream &operator<<(std::ostream &lhs, const Point &rhs)
+{
 	return rhs.ins(lhs);
 }
-std::istream& operator>>(std::istream& lhs, Point& rhs) {
+std::istream &operator>>(std::istream &lhs, Point &rhs)
+{
 	return rhs.ext(lhs);
 }

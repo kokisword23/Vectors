@@ -1,6 +1,6 @@
 #include "Triangle.h"
 #include "Vector.h"
-#include "TriangleEqualPointsException.h"
+#include "EqualPointsException.h"
 #include <vector>
 
 Triangle::Triangle(Point p1, Point p2, Point p3)
@@ -16,7 +16,7 @@ Triangle::Triangle(Point p1, Point p2, Point p3)
         else if (p1 == p2 && p2 == p3)
             throw EqualPointException("ERROR: Equal points (Point \"A\", Point \"B\" and Point \"C\").");
 
-        this->p1 = Point(p1.getX(), p1.getY(), p1.getZ());
+        this->p1 = p1;
         this->p2 = p2;
         this->p3 = p3;
         this->side1 = sqrt(pow((p2.getX() - p1.getX()), 2) + pow((p2.getY() - p1.getY()), 2));
@@ -81,12 +81,12 @@ Point Triangle::findCentroid() const
 
 bool Triangle::operator<(Point &other)
 {
-    return pointLiesInTriangle(other);
+    return pointLiesInTriangle(other, "");
 }
 
 bool Triangle::operator>(Point &other)
 {
-    return !pointLiesInTriangle(other);
+    return !pointLiesInTriangle(other, "");
 }
 
 bool Triangle::operator==(Point &other)
