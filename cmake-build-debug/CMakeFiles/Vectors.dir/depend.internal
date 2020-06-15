@@ -23,13 +23,18 @@ CMakeFiles/Vectors.dir/entities/Segment.cpp.o
  /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
 CMakeFiles/Vectors.dir/entities/Triangle.cpp.o
  /cygdrive/c/NBU/Vectors/Vectors/entities/Element.h
+ /cygdrive/c/NBU/Vectors/Vectors/entities/EqualPointsException.h
  /cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
  /cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.cpp
  /cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.h
+ /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
 CMakeFiles/Vectors.dir/entities/Vector.cpp.o
  /cygdrive/c/NBU/Vectors/Vectors/entities/Element.h
  /cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
  /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.cpp
  /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
 CMakeFiles/Vectors.dir/main.cpp.o
+ /cygdrive/c/NBU/Vectors/Vectors/entities/Element.h
+ /cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
+ /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
  /cygdrive/c/NBU/Vectors/Vectors/main.cpp

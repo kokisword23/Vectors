@@ -1,5 +1,5 @@
 #include <iostream>
-#include "entities\Element.h";
+#include "entities\Element.h"
 #include "entities\Vector.h"
 
 using namespace std;

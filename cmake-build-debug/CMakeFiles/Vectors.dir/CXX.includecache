@@ -6,27 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/NBU/Vectors/Vectors/entities/Element.cpp
-Element.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Element.h
-
-/cygdrive/c/NBU/Vectors/Vectors/entities/Element.h
+iostream
+-
 
 /cygdrive/c/NBU/Vectors/Vectors/entities/Line.cpp
 Line.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Line.h
+cmath
+-
 
 /cygdrive/c/NBU/Vectors/Vectors/entities/Line.h
 Vector.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
 
-/cygdrive/c/NBU/Vectors/Vectors/entities/Point.cpp
-Point.h
-/cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
-
 /cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
 Element.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Element.h
+iostream
+-
 
 /cygdrive/c/NBU/Vectors/Vectors/entities/Segment.cpp
 Segment.h
@@ -35,24 +33,12 @@ Segment.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Segment.h
 Line.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Line.h
-
-/cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.cpp
-Triangle.h
-/cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.h
-
-/cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.h
-Point.h
-/cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
-
-/cygdrive/c/NBU/Vectors/Vectors/entities/Vector.cpp
-Vector.h
-/cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
+cstring
+-
 
 /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
 Point.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
-
-/cygdrive/c/NBU/Vectors/Vectors/main.cpp
 iostream
 -
 
