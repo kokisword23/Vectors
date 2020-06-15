@@ -15,4 +15,4 @@ public:
 };
 
 std::ostream &operator<<(std::ostream &, const Point &);
-std::istream &operator>>(std::istream &, Point &);
+std::istream &operator>>(std::istream &lhs, Point &rhs);

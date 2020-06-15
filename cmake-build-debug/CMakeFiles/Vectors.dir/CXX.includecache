@@ -10,6 +10,10 @@
 iostream
 -
 
+/cygdrive/c/NBU/Vectors/Vectors/entities/EqualPointsException.h
+iostream
+-
+
 /cygdrive/c/NBU/Vectors/Vectors/entities/Line.cpp
 Line.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Line.h
@@ -19,6 +23,10 @@ cmath
 /cygdrive/c/NBU/Vectors/Vectors/entities/Line.h
 Vector.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
+
+/cygdrive/c/NBU/Vectors/Vectors/entities/Point.cpp
+Point.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
 
 /cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
 Element.h
@@ -36,9 +44,55 @@ Line.h
 cstring
 -
 
+/cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.cpp
+Triangle.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.h
+Vector.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
+EqualPointsException.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/EqualPointsException.h
+vector
+-
+
+/cygdrive/c/NBU/Vectors/Vectors/entities/Triangle.h
+Point.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
+math.h
+-
+
+/cygdrive/c/NBU/Vectors/Vectors/entities/Vector.cpp
+Vector.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
+cmath
+-
+VectorLengthException.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/VectorLengthException.h
+
 /cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
 Point.h
 /cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
 iostream
+-
+
+/cygdrive/c/NBU/Vectors/Vectors/entities/VectorLengthException.h
+exception
+-
+
+/cygdrive/c/NBU/Vectors/Vectors/entities/vectorlengthexception.h
+exception
+-
+
+/cygdrive/c/NBU/Vectors/Vectors/main.cpp
+iostream
+-
+entities/Element.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Element.h
+entities/Vector.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Vector.h
+entities/Point.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/Point.h
+entities/vectorlengthexception.h
+/cygdrive/c/NBU/Vectors/Vectors/entities/vectorlengthexception.h
+cmath
 -
 

@@ -32,9 +32,11 @@ CMakeFiles/Vectors.dir/entities/Vector.cpp.o: ../entities/Element.h
 CMakeFiles/Vectors.dir/entities/Vector.cpp.o: ../entities/Point.h
 CMakeFiles/Vectors.dir/entities/Vector.cpp.o: ../entities/Vector.cpp
 CMakeFiles/Vectors.dir/entities/Vector.cpp.o: ../entities/Vector.h
+CMakeFiles/Vectors.dir/entities/Vector.cpp.o: ../entities/VectorLengthException.h
 
 CMakeFiles/Vectors.dir/main.cpp.o: ../entities/Element.h
 CMakeFiles/Vectors.dir/main.cpp.o: ../entities/Point.h
 CMakeFiles/Vectors.dir/main.cpp.o: ../entities/Vector.h
+CMakeFiles/Vectors.dir/main.cpp.o: ../entities/vectorlengthexception.h
 CMakeFiles/Vectors.dir/main.cpp.o: ../main.cpp
 
