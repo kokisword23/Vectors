@@ -66,3 +66,22 @@ bool Tetrahedron::operator==(Point &p)
 {
     return false;
 }
+
+std::ostream &Tetrahedron::ins(std::ostream &out) const
+{
+    out << "Tetrahedron(Point1): " << endl
+        << p1 << "Tetrahedron(Point2): " << endl
+        << p2 << "Tetrahedron(Point3): " << endl
+        << p3 << "Tetrahedron(Point4): " << endl
+        << p4 << endl;
+    return out;
+}
+std::istream &Tetrahedron::ext(std::istream &in)
+{
+    in >> p1;
+    in >> p2;
+    in >> p3;
+    in >> p4;
+
+    return in;
+}
