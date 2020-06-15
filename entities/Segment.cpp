@@ -1,8 +1,6 @@
 #include "Segment.h"
 
-
-Segment::Segment() 
-{
+Segment::Segment(Point a, Point b) : Line(a, b) {
     this->startPoint.setX(0);
     this->startPoint.setY(0);
     this->startPoint.setZ(0);
@@ -10,8 +8,7 @@ Segment::Segment()
     this->endPoint.setY(0);
     this->endPoint.setZ(0);
 }
-Segment::Segment(Point& p1, Point& p2)
-{
+Segment::Segment(Point a, Point b, Point &p1, Point &p2) : Line(a, b) {
     this->startPoint.setX(p1.getX());
     this->startPoint.setY(p1.getY());
     this->startPoint.setZ(p1.getZ());
@@ -22,28 +19,27 @@ Segment::Segment(Point& p1, Point& p2)
 }
 
 
-Segment::Segment(const Segment& rhs)
-{
-    this->startPoint.getX() = rhs.startPoint.getX();
-    this->startPoint.getY() = rhs.startPoint.getY();
-    this->startPoint.getZ() = rhs.startPoint.getZ();
-    this->endPoint.getX() = rhs.endPoint.getX();
-    this->endPoint.getY() = rhs.endPoint.getY();
-    this->endPoint.getZ() = rhs.endPoint.getZ();
+Segment::Segment(Point a, Point b, const Segment &rhs) : Line(a, b) {
+    this->startPoint.setX(rhs.startPoint.getX());
+    this->startPoint.setY(rhs.startPoint.getY()) ;
+    this->startPoint.setZ(rhs.startPoint.getZ());
+    this->endPoint.setX(rhs.endPoint.getX()) ;
+    this->endPoint.setY(rhs.endPoint.getY());
+    this->endPoint.setZ(rhs.endPoint.getZ());
     Line l(this->startPoint, this->endPoint);
 }
 
-Segment& Segment:: operator=(const Segment& rhs)
+Segment * Segment:: operator=(const Segment& rhs)
 {
     if (this != &rhs)
     {
-        this->startPoint.getX() = rhs.startPoint.getX();
-        this->startPoint.getY() = rhs.startPoint.getY();
-        this->startPoint.getZ() = rhs.startPoint.getZ();
-        this->endPoint.getX() = rhs.endPoint.getX();
-        this->endPoint.getY() = rhs.endPoint.getY();
-        this->endPoint.getZ() = rhs.endPoint.getZ();
-        Line l(this->start_point, this->end_point);
+        this->startPoint.setX(rhs.startPoint.getX());
+        this->startPoint.setY(rhs.startPoint.getY()) ;
+        this->startPoint.setZ(rhs.startPoint.getZ());
+        this->endPoint.setX(rhs.endPoint.getX()) ;
+        this->endPoint.setY(rhs.endPoint.getY());
+        this->endPoint.setZ(rhs.endPoint.getZ());
+        Line l(this->startPoint, this->endPoint);
     }
     return this;
 }
@@ -53,15 +49,15 @@ Segment:: ~Segment() {}
 float Segment::findSegmentLength()
 {
     Vector temp;
-    temp.setX(this->endPoint.getX() - this->startPoint.getX();
-    temp.setY(this->endPoint.getY() - this->startPoint.getY();
-    temp.setZ(this->endPoint.getZ() - this->startPoint.getZ();
+    temp.setX(this->endPoint.getX() - this->startPoint.getX());
+    temp.setY(this->endPoint.getY() - this->startPoint.getY());
+    temp.setZ(this->endPoint.getZ() - this->startPoint.getZ());
     return temp.vectorLength();    
 }
 
 Point Segment::findSegmentMid()
 {
-    Point Mid
+    Point Mid;
     Mid.setX(this->startPoint.getX() + this->endPoint.getX() / 2);
     Mid.setY(this->startPoint.getY() + this->endPoint.getY() / 2);
     Mid.setZ(this->startPoint.getZ() + this->endPoint.getZ() / 2);
@@ -80,4 +76,20 @@ bool Segment:: operator==(Point& p)
 
     if (t1 == t2 && t2 == t3)return true;
     return false;
+}
+
+//
+std::ostream &Segment::ins(std::ostream &out) const
+{
+    out << "Segment(Point1): " << std::endl
+        <<  startPoint<< "Segment(Point2): " << std::endl
+        << endPoint ;
+    return out;
+}
+std::istream &Segment::ext(std::istream &in)
+{
+    in >> startPoint;
+    in >> endPoint;
+
+    return in;
 }

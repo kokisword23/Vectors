@@ -14,32 +14,17 @@
   <component name="ChangeListManager">
     <list default="true" id="5ed5e1cc-42b8-4d05-88d8-1c4d38113d26" name="Default Changelist" comment="Line cpp done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Element.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/entities/Element.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Vectors.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Vectors.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Vectors.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Vectors.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Vectors.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Element.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Element.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/entities/Line.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Line.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Line.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Line.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entities/Triangle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Triangle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Segment.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Segment.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entities/Segment.h" beforeDir="false" afterPath="$PROJECT_DIR$/entities/Segment.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,11 +115,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="742" y="235" width="436" height="489" key="#com.intellij.ide.util.MemberChooser" timestamp="1592157157258">
+    <state x="742" y="235" width="436" height="489" key="#com.intellij.ide.util.MemberChooser" timestamp="1592205846049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="742" y="235" width="436" height="489" key="#com.intellij.ide.util.MemberChooser/1920.-923.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1587990933473" />
-    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592157157258" />
+    <state x="742" y="235" key="#com.intellij.ide.util.MemberChooser/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592205846049" />
     <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1592163648283">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -159,10 +144,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592151725856" />
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592154143717">
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592205781449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592154143717" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1592205781449" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1592156293199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

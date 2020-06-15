@@ -23,6 +23,6 @@ public:
     void setZ(double z);
 
 	virtual std::ostream& ins(std::ostream&) const = 0;
-	virtual std::istream& ext(std::istream&) = 0
+	virtual std::istream& ext(std::istream&) = 0;
 };
 

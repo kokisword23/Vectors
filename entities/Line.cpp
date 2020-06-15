@@ -67,3 +67,23 @@ bool Line::operator|(const Line &) {
     return (this->lineDirection().vectParallelism());
 }
 
+//    Point a;
+//    Point b;
+//    Vector v;
+std::ostream &Line::ins(std::ostream &out) const
+{
+    out << "Line(Point1): " << std::endl
+        <<  a<< "Line(Point2): " << std::endl
+        << b << "Line(Vector): " << std::endl
+        << v;
+    return out;
+}
+std::istream &Line::ext(std::istream &in)
+{
+    in >> a;
+    in >> b;
+    in >> v;
+
+    return in;
+}
+
