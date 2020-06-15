@@ -67,9 +67,6 @@ Point Segment::findSegmentMid()
 bool Segment:: operator==(Point& p)
 {
     float t1,t2,t3;
-    float x = p.getX();
-    float y = p.getY();
-    float z = p.getZ();
     t1 = (p.getX() - this->startPoint.getX()) / (this->endPoint.getX() - this->startPoint.getX());
     t2 = (p.getY() - this->startPoint.getY()) / (this->endPoint.getY() - this->startPoint.getY());
     t3 = (p.getZ() - this->startPoint.getZ()) / (this->endPoint.getZ() - this->startPoint.getZ());
